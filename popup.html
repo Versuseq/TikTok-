@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TikTok+[PL]</title>
+	<style>
+		*{
+			margin:0;
+			box-sizing: border-box;
+			font-size: 20px;
+			color: aliceblue;
+		}
+		body{
+			background-color: rgb(37, 37, 37);
+			width: 180px;
+			height: 300px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		main{
+			width:170px;
+			height: 290px;
+			border:2px dashed white;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		img[alt="TikTok"]{
+			width: 50px;
+		}
+		#author{
+			font-size: 8px;
+			color: black;
+			justify-self: flex-end;
+			align-self: flex-end;
+		}
+		#check{
+			width: 70px;
+			height: 30px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#checkBackground{
+			margin: 10px;
+			width:60px;
+			height: 20px;
+			border: 1px solid gray;
+			border-radius: 10px;
+			display: flex;
+			align-items: center;
+			transition: all 0.32s ease-in-out;
+		}
+		#checkPoint{
+			width: 30px;
+			height: 30px;
+			border: 1px solid gray;
+			background-color: aliceblue;
+			border-radius: 30px;
+			transition: all 0.32s ease-in-out;
+		}
+		.not #checkPoint{
+			margin-left:-5px;
+		}
+		.not #checkBackground{
+			background-color: rgb(184, 184, 184);
+		}
+		.notnt #checkPoint{
+			margin-left:25px;
+		}
+		.notnt #checkBackground{
+			background-color: rgb(150, 0, 0);
+		}
+	</style>
+</head>
+<body>
+<main>
+	<a href="https://www.tiktok.com/" target="_blank"><img src="./data/tiktok.png" alt="TikTok"></a><br>
+	<span style="display: block; width:100%; word-wrap: break-word; text-align: center;">Rozszeżenie włączone</span>
+</main>
+<span id="author">TikTok+ by Versus</span>
+</body>
+</html>
+
